@@ -13,6 +13,6 @@ public class DockerAppDemoController {
 
     @GetMapping("/yhstory")
     public String yhstory() {
-        return "yhstory Hello~~~~~";
+        return "yhstory Hello~~~~~ from local";
     }
 }
