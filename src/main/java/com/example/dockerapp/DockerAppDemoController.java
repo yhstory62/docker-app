@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DockerAppDemoController {
 
-    @GetMapping("/test01/hello")
+    @GetMapping("/hello")
     public String hello() {
         return System.getenv("docker-app");
     }
 
-    @GetMapping("/test01/yhstory")
+    @GetMapping("/yhstory")
     public String yhstory() {
         return "yhstory Hello~~~~~ from local";
     }
