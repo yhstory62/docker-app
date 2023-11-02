@@ -19,7 +19,7 @@ dependencies {
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 }
 bootWar {
-       archiveName("ROOT.war")
+       archiveName("docker-app.war")
 }
 
 tasks.named('test') {
