@@ -11,7 +11,7 @@ public class DockerAppDemoController {
         return System.getenv("docker-app");
     }
 
-    @GetMapping("/yhstory")
+    @GetMapping("/docker-app/yhstory")
     public String yhstory() {
         return "yhstory Hello~~~~~ from local";
     }
